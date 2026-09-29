@@ -11,5 +11,5 @@ def get_pdf():
     return FileResponse(
         path=PDF_FILE,
         media_type="application/pdf",
-        filename="portfolio.pdf"
+        filename="General Attendance Report (18).pdf"
     )
