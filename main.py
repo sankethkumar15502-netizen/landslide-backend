@@ -4,7 +4,7 @@ from pathlib import Path
 
 app = FastAPI()
 
-PDF_FILE = Path(__file__).resolve().parent / "portfolio.pdf"
+PDF_FILE = Path(__file__).resolve().parent / "General Attendance Report (18).pdf"
 
 @app.get("/")
 def get_pdf():
